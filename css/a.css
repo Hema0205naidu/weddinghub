@@ -1,0 +1,44 @@
+        background-image: linear-gradient(to left,yellow,#8958a6);
+        color: black;
+        border-radius: 10px;
+      }
+      .card:hover{
+        background-image: linear-gradient(to left,cyan,yellow);
+        color: white;
+        -ms-transform:scale(1.1);
+        transform: scale(1.1);
+        -webkit-transform:scale(1.1);
+
+      }
+      .zoom{
+        padding: 70px;
+        background-color: green;
+        transition:transform.2s;
+        width: 200%;
+        height: 200px;
+        margin:0 ml-auto;
+      }
+      .zoom:hover{
+         -ms-transform:scale(1.1);
+        transform: scale(1.1);
+         -webkit-transform:scale(1.1);
+      }
+      .card{
+        border: none;
+      }
+
+
+.nav-item
+{
+  font-size: 18px;
+  padding: 5px;
+}
+.nav-link:hover
+{
+  background-color:black;
+  border-radius: 10%;
+}
+.footer
+{
+  background-color:#b4b4b4;
+}
